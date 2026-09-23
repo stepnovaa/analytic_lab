@@ -1,0 +1,24 @@
+# Build products
+/build/
+/cmake-build-*/
+/out/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Python research environments
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local and potentially sensitive data
+.env
+*.log
+data/raw/private/
+data/processed/*.csv
+
+# Keep directory placeholders
+!**/.gitkeep
